@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: Poppins;
+}
+
+.table thead th {
+    color: #adb5bd;
+  font-weight: 400;
+}
+
+.table-lg td, .table-lg th {
+  padding: 0.8rem 1rem;
+}
+
+
+/* ================== BASE =================== */
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+body.offcanvas-active {
+  overflow: hidden;
+}
+
+
+.content-main { 
+  padding: 30px 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.content-header .content-title {
+  margin-bottom: 0;
+}
+
+
+a[class*=card] {
+  color: initial;
+}
+a[class*=card]:hover .title {
+  color: #3167EB;
+}
+
+
+
+ul.row, ul.row-sm {
+  list-style: none;
+  padding: 0;
+}
+
+[class*=list-] li:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  overflow: hidden;
+  height: 0;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+.btn-search{
+    background: #065374;
+}
+.search{
+    font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.btn-1{
+    background: #065374;
+}
+
+.btn-2{
+    background: #FFB703;
+}
+
+.Change{
+    border: 2px solid #9F9F9F;
+    border-radius: 5px;
+}
+
+.btn-3{
+    background: #065374;
+    color: #ffff;
+
+}
+
+.content-title{
+    font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.badge{
+background: #1E940033;
+border-radius: 5px;
+}
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.drop-toggle{
+    background-color: #FFFFFF;
+    color: black;
+    border: 2px solid #9F9F9F;
+border-radius: 5px;
+}
+
+
+
+
+
+
